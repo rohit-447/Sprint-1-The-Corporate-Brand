@@ -1,0 +1,10 @@
+.container{
+    width: calc(100% -30px);
+    min-height: 50vh;
+    /* background-color: aqua; */
+    margin: 30px 30px;
+}
+.Heading{
+    display: flex;
+    align-items: start;
+}

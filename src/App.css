@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-main: "IBM Plex Sans", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --primary-color: #78a7f5;
+  
+}
+
+body {
+  font-family: var(--font-main);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+}
+.main-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
