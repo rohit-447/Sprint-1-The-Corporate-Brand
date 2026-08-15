@@ -5,7 +5,6 @@ function Hero() {
 
   return (
     <section id="home" className="relative min-h-[760px] border-b border-[#d2cec5] pt-[70px] dark:border-white/10 lg:min-h-[785px]">
-      <div className="pointer-events-none absolute right-[-40px] top-[110px] hidden select-none text-[clamp(150px,17vw,290px)] font-black leading-none tracking-[-0.12em] text-[#1c2730]/[0.07] dark:text-white/[0.035] xl:block">P<span className="text-[0.75em]">IT</span></div>
       <div className="mx-auto grid min-h-[690px] max-w-[1240px] grid-cols-1 gap-10 px-5 py-20 sm:px-8 lg:grid-cols-[155px_minmax(0,1fr)_220px] lg:gap-8 lg:px-10 lg:py-[104px]">
         <aside className="hidden lg:block">
           <p className="font-mono text-[10px] leading-4 tracking-[0.16em] text-[#355a80] dark:text-[#8fb3d7]">INDEPENDENT DIGITAL<br />STUDIO</p>
